@@ -56,7 +56,7 @@ To upgrade a local instance of Teddy, run either `npm run upgrade` or `node upgr
 
 #### --path &lt;path&gt; (required)
 
-The absolute path to a local instance of <a href="https://github.com/teddyful/teddy" target="_blank">Teddy</a> that will be upgraded if a newer release version is available.
+The absolute path to a local instance of <a href="https://github.com/teddyful/teddy" target="_blank">Teddy</a> that will be upgraded, upon user confirmation, if a newer release version is available.
 
 #### --delete-backup
 
@@ -115,7 +115,7 @@ Upgrade confirmed. Upgrading Teddy...
 
 ### Help
 
-Run `npm run build -- -h` or `node build.js -h` to see a complete list of usage options.
+Run `npm run upgrade -- -h` or `node upgrade.js -h` to see a complete list of usage options.
 
 ### Backups
 
